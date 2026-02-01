@@ -4,7 +4,7 @@
 
 #include "define.h"
 
-BUTTON *create_button(int x_pos, int y_pos, int width, int height)
+BUTTON *create_button(SDL_Surface *screen, char file_path[20], int x_pos, int y_pos)
 {
     BUTTON *button = NULL;
 
@@ -15,23 +15,25 @@ BUTTON *create_button(int x_pos, int y_pos, int width, int height)
         printf("\n***Failed to allocate memory for button***\n");
     }
 
+    // Setup surface texture for button
+    SDL_Surface * surface_temp = IMG_Load(file_path);
+    button->surface = SDL_ConvertSurface(surface_temp, screen->format, 0);
+    SDL_FreeSurface(surface_temp);
+
     // Initialize values
-    button->texture = NULL;
     button->button_selected = button_is_not_selected;
     button->rect.x = x_pos;
     button->rect.y = y_pos;
-    button->rect.w = width;
-    button->rect.h = height;
+    button->rect.w = button->surface->w;
+    button->rect.h = button->surface->h;
 
     return button;
 }
 
-void display_button(SDL_Renderer *renderer, BUTTON *button, char file_path[20])
+void display_button(SDL_Surface *screen, BUTTON *button)
 {
 
-    // SDL_Surface *surface = SDL_ConvertSurface(IMG_Load(file_path), )
-    // SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);
-    // SDL_RenderFillRect(renderer, &button->rect);
+    SDL_BlitSurface(button->surface, NULL, screen, &button->rect);
 
     return;
 }
@@ -54,7 +56,20 @@ void update_button(BUTTON *button, MOUSE *mouse)
 
 void destroy_button(BUTTON *button)
 {
+
+    if(button == NULL)
+    {
+        return;
+    }
+
+    if(button->surface)
+    {
+        SDL_FreeSurface(button->surface);
+    }
+
     free(button);
 
     button = NULL;
+
+    return;
 }

@@ -9,13 +9,13 @@
 
 typedef struct BUTTON
 {
-    SDL_Texture *texture;
+    SDL_Surface *surface;
     SDL_Rect rect;
     int button_selected;
 } BUTTON;
 
-BUTTON *create_button(int x_pos, int y_pos, int width, int height);
-void display_button(SDL_Renderer *renderer, BUTTON *button, char file_path[20]);
+BUTTON *create_button(SDL_Surface *screen, char file_path[20], int x_pos, int y_pos);
+void display_button(SDL_Surface *surface, BUTTON *button);
 void update_button(BUTTON *button, MOUSE *mouse);
 void destroy_button(BUTTON *button);
 
