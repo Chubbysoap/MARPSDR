@@ -12,4 +12,4 @@ depend:
 	$(CC) $(CFLAGS) -c $(dependFiles)
 
 clean:
-	rm -f $(TARGET) $(dependFiles)
+	rm -f $(TARGET) $(dependOFiles)
