@@ -1,13 +1,5 @@
 #include "define.h"
 
-typedef struct ball
-{
-    float x;
-    float y;
-    float width;
-    float height;
-} ball;
-
 
 int main()
 {
@@ -44,9 +36,9 @@ int main()
         game_is_running = 0;
     }
 
-    SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, 0);
+    SDL_Surface *screen = SDL_GetWindowSurface(window);
 
-    if(renderer == NULL)
+    if(screen == NULL)
     {
         fprintf(stderr, "Error creating SDL Renderer.\n");
         game_is_running = 0;
@@ -54,8 +46,7 @@ int main()
 
     // Setup
     MOUSE *mouse = create_mouse();
-    BUTTON *button = create_button(200,200,40,40);
-    SDL_Texture *texture = IMG_LoadTexture(renderer, "assets/TestBUtton.png");
+    BUTTON *button = create_button(screen, "assets/TestButton.png", 100,200);
 
     // Loop
     while(game_is_running)
@@ -94,21 +85,20 @@ int main()
         // Render
         if(button->button_selected == button_is_selected)
         {
-            SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
+            SDL_FillRect(screen, NULL, SDL_MapRGB(screen->format, 0, 0, 255));
+
         }
         else
         {
-            SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+            SDL_FillRect(screen, NULL, SDL_MapRGB(screen->format, 0, 0, 0));
         }
-        // SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
-        SDL_RenderClear(renderer);
 
-        // display_button(renderer, button);
-        SDL_RenderPresent(renderer);
+        display_button(screen, button);
+        SDL_UpdateWindowSurface(window);
     }
 
     // Destroy window
-    SDL_DestroyRenderer(renderer);
+    // SDL_FreeSurface(screen);
     SDL_DestroyWindow(window);
     SDL_Quit();
 
