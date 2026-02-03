@@ -37,6 +37,7 @@ MOUSE * create_mouse(void)
 Name: update_mouse
 Description: Updates values in mouse structure
 Inputs: MOUSE structure pointer
+        SDL_Event: Event list for inputs
 Outputs: N/A
 */
 void update_mouse(MOUSE *mouse, SDL_Event event)

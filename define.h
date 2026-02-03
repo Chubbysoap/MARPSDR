@@ -11,9 +11,15 @@
 // Custom header files
 #include "button.h"
 #include "mouse.h"
+#include "screen.h"
 
 // FPS definitions
 #define FPS 60
 #define FRAME_TARGET_TIME (1000 / FPS)
+
+// Screen definitions
+#define NUM_of_SCREENS 2
+#define MAIN 0
+#define FM_RADIO 1
 
 #endif

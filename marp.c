@@ -3,21 +3,23 @@
 
 int main()
 {
-    int game_is_running = 1;
+    SDL_Surface *screen[NUM_of_SCREENS];
+    int program_is_running = 1;
     int last_frame_time = 0;
     int time_to_wait = 0;
+
 
     // initialize window
     if(SDL_Init(SDL_INIT_EVERYTHING) != 0)
     {
         fprintf(stderr, "Error initializing SDL.\n");
-        game_is_running = 0;
+        program_is_running = 0;
     }
 
     if(IMG_Init(IMG_INIT_PNG) == 0)
     {
         fprintf(stderr, "Error initializing SDL Image.\n");
-        game_is_running = 0;
+        program_is_running = 0;
     }
 
     SDL_Window *window = SDL_CreateWindow(
@@ -33,23 +35,31 @@ int main()
     if(window == NULL)
     {
         fprintf(stderr, "Error creating SDL window.\n");
-        game_is_running = 0;
+        program_is_running = 0;
     }
 
-    SDL_Surface *screen = SDL_GetWindowSurface(window);
 
-    if(screen == NULL)
+    // Initialize screen surfaces
+    for(int i = 0; i < NUM_of_SCREENS; i++)
     {
-        fprintf(stderr, "Error creating SDL Renderer.\n");
-        game_is_running = 0;
+        screen[i] = NULL;
+
+        screen[i] = SDL_GetWindowSurface(window);
+
+        if(screen[i] == NULL)
+        {
+            fprintf(stderr, "Error creating SDL Renderer.\n");
+            program_is_running = 0;
+        }
     }
 
     // Setup
     MOUSE *mouse = create_mouse();
-    BUTTON *button = create_button(screen, "assets/TestButton.png", 100,200);
+    BUTTON *button = create_button(screen[MAIN], "assets/TestButton.png", 100,200);
+    BUTTON *exit_button = create_button(screen[FM_RADIO], "assets/exit.png", 200, 400);
 
     // Loop
-    while(game_is_running)
+    while(program_is_running)
     {
         // Process input
         SDL_Event event;
@@ -58,17 +68,18 @@ int main()
         switch(event.type)
         {
             case SDL_QUIT:
-                game_is_running = 0;
+                program_is_running = 0;
                 break;
             case SDL_KEYDOWN:
                 if(event.key.keysym.sym == SDLK_ESCAPE)
                 {
-                    game_is_running = 0;
+                    program_is_running = 0;
                 }
                 break;
         }
         update_mouse(mouse, event);
         update_button(button, mouse);
+        update_button(exit_button, mouse);
 
         
         // Update
@@ -82,23 +93,26 @@ int main()
 
         last_frame_time = SDL_GetTicks();
 
+        if(exit_button->button_selected == button_is_selected)
+        {
+            button->button_selected = button_is_not_selected;
+        }
+
         // Render
         if(button->button_selected == button_is_selected)
         {
-            SDL_FillRect(screen, NULL, SDL_MapRGB(screen->format, 0, 0, 255));
-
+            display_FM_screen(screen[FM_RADIO], exit_button);
         }
         else
         {
-            SDL_FillRect(screen, NULL, SDL_MapRGB(screen->format, 0, 0, 0));
+            display_main_screen(screen[MAIN], button);
         }
+        
 
-        display_button(screen, button);
         SDL_UpdateWindowSurface(window);
     }
 
     // Destroy window
-    // SDL_FreeSurface(screen);
     SDL_DestroyWindow(window);
     SDL_Quit();
 
