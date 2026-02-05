@@ -1,0 +1,8 @@
+-I/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/app/ad9361/src/
+-I/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/app/noos/drivers/axi_core/axi_adc_core/
+-I/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/app/noos/drivers/axi_core/axi_dac_core/
+-I/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/app/noos/drivers/axi_core/axi_dmac/
+-I/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/app/noos/drivers/axi_core/axi_sysid/
+-I/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/app/noos/drivers/platform/xilinx/
+-I/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/app/noos/drivers/rf-transceiver/ad9361/
+-I/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/app/noos/include

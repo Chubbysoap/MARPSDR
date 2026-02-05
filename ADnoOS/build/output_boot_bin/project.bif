@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+[bootloader] /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/export/hw0/sw/hw0/boot/fsbl.elf
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/system_top.bit
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/ad9361.elf
+}

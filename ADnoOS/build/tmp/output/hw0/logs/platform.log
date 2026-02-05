@@ -1,0 +1,2094 @@
+TRACE::2026-02-05.16:11:49::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:49::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:49::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:49::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:49::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:49::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:49::SCWPlatform::Do not have an existing db opened. 
+TRACE::2026-02-05.16:11:50::SCWPlatform::Opened new HwDB with name system_top_0
+TRACE::2026-02-05.16:11:50::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2026-02-05.16:11:50::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0"
+		}]
+}
+TRACE::2026-02-05.16:11:50::SCWPlatform::Boot application domains not present, creating them
+TRACE::2026-02-05.16:11:50::SCWDomain::checking for install qemu data   : 
+TRACE::2026-02-05.16:11:50::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2023.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2026-02-05.16:11:50::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2023.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2026-02-05.16:11:50::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:50::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:50::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:50::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:50::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:50::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:50::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:50::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:50::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:50::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:50::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:50::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:50::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2026-02-05.16:11:50::SCWPlatform::Generating the sources  .
+TRACE::2026-02-05.16:11:50::SCWBDomain::Generating boot domain sources.
+TRACE::2026-02-05.16:11:50::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2026-02-05.16:11:50::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:50::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:50::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:50::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:50::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:50::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2026-02-05.16:11:50::SCWMssOS::No sw design opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:50::SCWMssOS::mss does not exists at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:50::SCWMssOS::Creating sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:50::SCWMssOS::Adding the swdes entry, created swdb /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:50::SCWMssOS::updating the scw layer changes to swdes at   /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:50::SCWMssOS::Writing mss at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:50::SCWMssOS::Completed writing the mss file at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2026-02-05.16:11:50::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2026-02-05.16:11:50::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2026-02-05.16:11:50::SCWBDomain::Completed writing the mss file at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2026-02-05.16:11:54::SCWPlatform::Generating sources Done.
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2026-02-05.16:11:54::SCWMssOS::No sw design opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::mss exists loading the mss file  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Opened the sw design from mss  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Adding the swdes entry /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2026-02-05.16:11:54::SCWMssOS::updating the scw layer about changes
+TRACE::2026-02-05.16:11:54::SCWMssOS::Opened the sw design.  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Saving the mss changes /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Commit changes completed.
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"0c23e4578fe91668fbc79acbecacb6a2",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWDomain::checking for install qemu data   : 
+TRACE::2026-02-05.16:11:54::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2023.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2026-02-05.16:11:54::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2023.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::No sw design opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::mss does not exists at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Creating sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Adding the swdes entry, created swdb /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::updating the scw layer changes to swdes at   /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Writing mss at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Completed writing the mss file at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2026-02-05.16:11:54::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2026-02-05.16:11:54::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2026-02-05.16:11:54::SCWMssOS::Completed writing the mss file at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2026-02-05.16:11:54::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Saving the mss changes /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Commit changes completed.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Saving the mss changes /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2026-02-05.16:11:54::SCWMssOS::Writing the mss file completed /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Commit changes completed.
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"0c23e4578fe91668fbc79acbecacb6a2",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"6fe3c4ca824510c71dfe4dbbc6faa195",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2026-02-05.16:11:54::SCWPlatform::Started generating the artifacts platform hw0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-02-05.16:11:54::SCWPlatform::Started generating the artifacts for system configuration hw0
+LOG::2026-02-05.16:11:54::SCWSystem::Checking the domain zynq_fsbl
+LOG::2026-02-05.16:11:54::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2026-02-05.16:11:54::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2026-02-05.16:11:54::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2026-02-05.16:11:54::SCWSystem::Checking the domain standalone_domain
+LOG::2026-02-05.16:11:54::SCWSystem::Not a boot domain 
+LOG::2026-02-05.16:11:54::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2026-02-05.16:11:54::SCWDomain::Generating domain artifcats
+TRACE::2026-02-05.16:11:54::SCWMssOS::Generating standalone artifcats
+TRACE::2026-02-05.16:11:54::SCWMssOS::Copying the qemu file from  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/resources/hw0/standalone_domain/qemu_args.txt To /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/export/hw0/sw/hw0/qemu/
+TRACE::2026-02-05.16:11:54::SCWMssOS::Copying the qemu file from  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/resources/hw0/standalone_domain/qemu_args.txt To /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/export/hw0/sw/hw0/standalone_domain/qemu/
+TRACE::2026-02-05.16:11:54::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Completed writing the mss file at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2026-02-05.16:11:54::SCWMssOS::Mss edits present, copying mssfile into export location /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-02-05.16:11:54::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-02-05.16:11:54::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2026-02-05.16:11:54::SCWMssOS::skipping the bsp build ... 
+TRACE::2026-02-05.16:11:54::SCWMssOS::Copying to export directory.
+TRACE::2026-02-05.16:11:54::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-02-05.16:11:54::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2026-02-05.16:11:54::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2026-02-05.16:11:54::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2026-02-05.16:11:54::SCWSystem::Completed Processing the sysconfig hw0
+LOG::2026-02-05.16:11:54::SCWPlatform::Completed generating the artifacts for system configuration hw0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Started preparing the platform 
+TRACE::2026-02-05.16:11:54::SCWSystem::Writing the bif file for system config hw0
+TRACE::2026-02-05.16:11:54::SCWSystem::dir created 
+TRACE::2026-02-05.16:11:54::SCWSystem::Writing the bif 
+TRACE::2026-02-05.16:11:54::SCWPlatform::Started writing the spfm file 
+TRACE::2026-02-05.16:11:54::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-02-05.16:11:54::SCWPlatform::Completed generating the platform
+TRACE::2026-02-05.16:11:54::SCWMssOS::Saving the mss changes /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Commit changes completed.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Saving the mss changes /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Commit changes completed.
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"0c23e4578fe91668fbc79acbecacb6a2",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"6fe3c4ca824510c71dfe4dbbc6faa195",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-02-05.16:11:54::SCWPlatform::updated the xpfm file.
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Saving the mss changes /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Commit changes completed.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Saving the mss changes /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Commit changes completed.
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"0c23e4578fe91668fbc79acbecacb6a2",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"6fe3c4ca824510c71dfe4dbbc6faa195",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Saving the mss changes /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Commit changes completed.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Saving the mss changes /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-02-05.16:11:54::SCWMssOS::Commit changes completed.
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"0c23e4578fe91668fbc79acbecacb6a2",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"6fe3c4ca824510c71dfe4dbbc6faa195",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2026-02-05.16:11:54::SCWPlatform::Started generating the artifacts platform hw0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-02-05.16:11:54::SCWPlatform::Started generating the artifacts for system configuration hw0
+LOG::2026-02-05.16:11:54::SCWSystem::Checking the domain zynq_fsbl
+LOG::2026-02-05.16:11:54::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2026-02-05.16:11:54::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2026-02-05.16:11:54::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:54::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:54::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:54::SCWBDomain::Completed writing the mss file at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2026-02-05.16:11:54::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-02-05.16:11:54::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2026-02-05.16:11:54::SCWBDomain::System Command Ran  cd  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl ; bash -c " make -C zynq_fsbl_bsp ; make  " 
+TRACE::2026-02-05.16:11:54::SCWBDomain::make --no-print-directory seq_libs
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2026-02-05.16:11:54::SCWBDomain::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2026-02-05.16:11:54::SCWBDomain::bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2026-02-05.16:11:54::SCWBDomain::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2026-02-05.16:11:54::SCWBDomain::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-02-05.16:11:54::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-02-05.16:11:54::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:54::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:54::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-02-05.16:11:54::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-02-05.16:11:54::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-02-05.16:11:54::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-02-05.16:11:54::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-02-05.16:11:54::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-02-05.16:11:54::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/iic_v3_10/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/iic_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-02-05.16:11:54::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-02-05.16:11:54::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_11/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-02-05.16:11:54::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-02-05.16:11:54::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:54::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:54::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2026-02-05.16:11:54::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2026-02-05.16:11:54::SCWBDomain:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:54::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:54::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-02-05.16:11:54::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-02-05.16:11:54::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-02-05.16:11:54::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-02-05.16:11:54::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2026-02-05.16:11:54::SCWBDomain::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2026-02-05.16:11:54::SCWBDomain::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-02-05.16:11:54::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-02-05.16:11:54::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-02-05.16:11:54::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-02-05.16:11:54::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:54::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:54::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilffs_v5_1/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:54::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:54::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_7/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:54::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:54::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_7/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-02-05.16:11:54::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-02-05.16:11:54::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Finished building libraries sequentially.
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -j 20 --no-print-directory par_libs
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2026-02-05.16:11:54::SCWBDomain::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2026-02-05.16:11:54::SCWBDomain::bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2026-02-05.16:11:54::SCWBDomain::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2026-02-05.16:11:54::SCWBDomain::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-02-05.16:11:54::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-02-05.16:11:54::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:54::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:54::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-02-05.16:11:54::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-02-05.16:11:54::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/iic_v3_10/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-02-05.16:11:54::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-02-05.16:11:54::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_11/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-02-05.16:11:54::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-02-05.16:11:54::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/iic_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-02-05.16:11:54::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-02-05.16:11:54::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-02-05.16:11:54::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-02-05.16:11:54::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:54::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:54::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2026-02-05.16:11:54::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2026-02-05.16:11:54::SCWBDomain:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:54::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:54::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-02-05.16:11:54::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-02-05.16:11:54::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2026-02-05.16:11:54::SCWBDomain::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2026-02-05.16:11:54::SCWBDomain::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-02-05.16:11:54::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-02-05.16:11:54::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-02-05.16:11:54::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-02-05.16:11:54::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-02-05.16:11:54::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-02-05.16:11:54::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:54::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:54::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilffs_v5_1/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:54::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:54::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_7/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:54::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:54::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+TRACE::2026-02-05.16:11:54::SCWBDomain::e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2026-02-05.16:11:54::SCWBDomain::hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2026-02-05.16:11:54::SCWBDomain::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2026-02-05.16:11:54::SCWBDomain::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-02-05.16:11:54::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-02-05.16:11:54::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-02-05.16:11:54::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-02-05.16:11:54::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-02-05.16:11:54::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-02-05.16:11:54::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-02-05.16:11:54::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-02-05.16:11:54::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_10/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-02-05.16:11:54::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-02-05.16:11:54::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/iic_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-02-05.16:11:54::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-02-05.16:11:54::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_11/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_11/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-02-05.16:11:54::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-02-05.16:11:54::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-02-05.16:11:54::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-02-05.16:11:54::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-02-05.16:11:54::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-02-05.16:11:54::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-02-05.16:11:54::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-02-05.16:11:54::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-02-05.16:11:54::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-02-05.16:11:54::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-02-05.16:11:54::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-02-05.16:11:54::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-02-05.16:11:54::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-02-05.16:11:54::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-02-05.16:11:54::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-02-05.16:11:54::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-02-05.16:11:54::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-02-05.16:11:54::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+TRACE::2026-02-05.16:11:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-02-05.16:11:54::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-02-05.16:11:54::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:55::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v5_1/src
+
+TRACE::2026-02-05.16:11:55::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-02-05.16:11:55::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-02-05.16:11:55::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:56::SCWBDomain::Finished building libraries parallelly.
+
+TRACE::2026-02-05.16:11:56::SCWBDomain::make --no-print-directory archive
+
+TRACE::2026-02-05.16:11:56::SCWBDomain::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/_sbrk
+TRACE::2026-02-05.16:11:56::SCWBDomain::.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/close.o ps7_cortexa
+TRACE::2026-02-05.16:11:56::SCWBDomain::9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/
+TRACE::2026-02-05.16:11:56::SCWBDomain::fstat.o ps7_cortexa9_0/lib/getentropy.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/isatty.o ps7
+TRACE::2026-02-05.16:11:56::SCWBDomain::_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/pri
+TRACE::2026-02-05.16:11:56::SCWBDomain::nt.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/
+TRACE::2026-02-05.16:11:56::SCWBDomain::lib/time.o ps7_cortexa9_0/lib/translation_table.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/ve
+TRACE::2026-02-05.16:11:56::SCWBDomain::ctors.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xadcps_intr.o p
+TRACE::2026-02-05.16:11:56::SCWBDomain::s7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/x
+TRACE::2026-02-05.16:11:56::SCWBDomain::devcfg.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xd
+TRACE::2026-02-05.16:11:56::SCWBDomain::evcfg_selftest.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/li
+TRACE::2026-02-05.16:11:56::SCWBDomain::b/xdmaps_hw.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xemacps.o ps7_cortexa9_
+TRACE::2026-02-05.16:11:56::SCWBDomain::0/lib/xemacps_bdring.o ps7_cortexa9_0/lib/xemacps_control.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_
+TRACE::2026-02-05.16:11:56::SCWBDomain::cortexa9_0/lib/xemacps_intr.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xgpiops.o ps7_cortexa9_0/lib/xgpiops_g.o ps
+TRACE::2026-02-05.16:11:56::SCWBDomain::7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xgpiop
+TRACE::2026-02-05.16:11:56::SCWBDomain::s_sinit.o ps7_cortexa9_0/lib/xiic.o ps7_cortexa9_0/lib/xiic_dyn_master.o ps7_cortexa9_0/lib/xiic_g.o ps7_cortexa9_0/lib/xiic_in
+TRACE::2026-02-05.16:11:56::SCWBDomain::tr.o ps7_cortexa9_0/lib/xiic_l.o ps7_cortexa9_0/lib/xiic_master.o ps7_cortexa9_0/lib/xiic_multi_master.o ps7_cortexa9_0/lib/xii
+TRACE::2026-02-05.16:11:56::SCWBDomain::c_options.o ps7_cortexa9_0/lib/xiic_selftest.o ps7_cortexa9_0/lib/xiic_sinit.o ps7_cortexa9_0/lib/xiic_slave.o ps7_cortexa9_0/l
+TRACE::2026-02-05.16:11:56::SCWBDomain::ib/xiic_stats.o ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib
+TRACE::2026-02-05.16:11:56::SCWBDomain::/xil_clocking.o ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_c
+TRACE::2026-02-05.16:11:56::SCWBDomain::ortexa9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_sleeptimer.
+TRACE::2026-02-05.16:11:56::SCWBDomain::o ps7_cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_t
+TRACE::2026-02-05.16:11:56::SCWBDomain::estmem.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xinterrupt_wrap.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/l
+TRACE::2026-02-05.16:11:56::SCWBDomain::ib/xplatform_info.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xpm_init.o ps7_cortexa9_0/lib/xqspips.o ps7_cortexa9_0/
+TRACE::2026-02-05.16:11:56::SCWBDomain::lib/xqspips_g.o ps7_cortexa9_0/lib/xqspips_hw.o ps7_cortexa9_0/lib/xqspips_options.o ps7_cortexa9_0/lib/xqspips_selftest.o ps7_
+TRACE::2026-02-05.16:11:56::SCWBDomain::cortexa9_0/lib/xqspips_sinit.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xscugic_g.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_
+TRACE::2026-02-05.16:11:56::SCWBDomain::cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cortexa9_0/lib/xscut
+TRACE::2026-02-05.16:11:56::SCWBDomain::imer.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xscutimer_selftest.o ps7_cortexa9_0/lib/xscutimer_sinit.o ps7_cortex
+TRACE::2026-02-05.16:11:56::SCWBDomain::a9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_
+TRACE::2026-02-05.16:11:56::SCWBDomain::cortexa9_0/lib/xsdps.o ps7_cortexa9_0/lib/xsdps_card.o ps7_cortexa9_0/lib/xsdps_g.o ps7_cortexa9_0/lib/xsdps_host.o ps7_cortexa
+TRACE::2026-02-05.16:11:56::SCWBDomain::9_0/lib/xsdps_options.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/xspips.o ps7_cortexa9_0/lib/xspips_g.o ps7_cortexa9
+TRACE::2026-02-05.16:11:56::SCWBDomain::_0/lib/xspips_hw.o ps7_cortexa9_0/lib/xspips_options.o ps7_cortexa9_0/lib/xspips_selftest.o ps7_cortexa9_0/lib/xspips_sinit.o p
+TRACE::2026-02-05.16:11:56::SCWBDomain::s7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xuartps.o ps7_cortexa9_0/lib/xuartps_g.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cor
+TRACE::2026-02-05.16:11:56::SCWBDomain::texa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/xuartps_options.o ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortexa9_0/lib/xuartp
+TRACE::2026-02-05.16:11:56::SCWBDomain::s_sinit.o ps7_cortexa9_0/lib/xusbps.o ps7_cortexa9_0/lib/xusbps_endpoint.o ps7_cortexa9_0/lib/xusbps_g.o ps7_cortexa9_0/lib/xus
+TRACE::2026-02-05.16:11:56::SCWBDomain::bps_hw.o ps7_cortexa9_0/lib/xusbps_intr.o ps7_cortexa9_0/lib/xusbps_sinit.o
+
+TRACE::2026-02-05.16:11:56::SCWBDomain::Finished building libraries
+
+TRACE::2026-02-05.16:11:56::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_f
+TRACE::2026-02-05.16:11:56::SCWBDomain::sbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2026-02-05.16:11:56::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c image_mover.c -o image_mover.o -Izynq
+TRACE::2026-02-05.16:11:56::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2026-02-05.16:11:56::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c main.c -o main.o -Izynq_fsbl_bsp/ps7_
+TRACE::2026-02-05.16:11:56::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2026-02-05.16:11:56::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2026-02-05.16:11:56::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2026-02-05.16:11:56::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_
+TRACE::2026-02-05.16:11:56::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2026-02-05.16:11:56::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2026-02-05.16:11:56::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2026-02-05.16:11:56::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_
+TRACE::2026-02-05.16:11:56::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2026-02-05.16:11:56::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c ps7_init.c -o ps7_init.o -Izynq_fsbl_
+TRACE::2026-02-05.16:11:56::SCWBDomain::bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2026-02-05.16:11:56::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_
+TRACE::2026-02-05.16:11:56::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2026-02-05.16:11:56::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2026-02-05.16:11:56::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2026-02-05.16:11:57::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cort
+TRACE::2026-02-05.16:11:57::SCWBDomain::exa9_0/include -I.
+
+TRACE::2026-02-05.16:11:57::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c fsbl_handoff.S -o fsbl_handoff.o -Izy
+TRACE::2026-02-05.16:11:57::SCWBDomain::nq_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2026-02-05.16:11:57::SCWBDomain::arm-none-eabi-gcc -o fsbl.elf fsbl_handoff.o fsbl_hooks.o image_mover.o main.o md5.o nand.o nor.o pcap.o ps7_init.o qspi.o rsa.
+TRACE::2026-02-05.16:11:57::SCWBDomain::o sd.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id
+TRACE::2026-02-05.16:11:57::SCWBDomain::=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-
+TRACE::2026-02-05.16:11:57::SCWBDomain::group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                                -Wl,--gc-sections -Lzy
+TRACE::2026-02-05.16:11:57::SCWBDomain::nq_fsbl_bsp/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2026-02-05.16:11:57::SCWSystem::Checking the domain standalone_domain
+LOG::2026-02-05.16:11:57::SCWSystem::Not a boot domain 
+LOG::2026-02-05.16:11:57::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2026-02-05.16:11:57::SCWDomain::Generating domain artifcats
+TRACE::2026-02-05.16:11:57::SCWMssOS::Generating standalone artifcats
+TRACE::2026-02-05.16:11:57::SCWMssOS::Copying the qemu file from  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/resources/hw0/standalone_domain/qemu_args.txt To /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/export/hw0/sw/hw0/qemu/
+TRACE::2026-02-05.16:11:57::SCWMssOS::Copying the qemu file from  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/resources/hw0/standalone_domain/qemu_args.txt To /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/export/hw0/sw/hw0/standalone_domain/qemu/
+TRACE::2026-02-05.16:11:57::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-02-05.16:11:57::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:57::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:57::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:57::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:57::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:57::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:57::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:57::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:57::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:57::SCWMssOS::Completed writing the mss file at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2026-02-05.16:11:57::SCWMssOS::Mss edits present, copying mssfile into export location /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:57::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-02-05.16:11:57::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-02-05.16:11:57::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2026-02-05.16:11:57::SCWMssOS::doing bsp build ... 
+TRACE::2026-02-05.16:11:57::SCWMssOS::System Command Ran  cd  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2026-02-05.16:11:57::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -j 20 --no-print-directory par_libs
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2026-02-05.16:11:57::SCWMssOS::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2026-02-05.16:11:57::SCWMssOS::bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2026-02-05.16:11:57::SCWMssOS::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2026-02-05.16:11:57::SCWMssOS::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-02-05.16:11:57::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-02-05.16:11:57::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:57::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:57::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-02-05.16:11:57::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-02-05.16:11:57::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-02-05.16:11:57::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-02-05.16:11:57::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/iic_v3_10/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-02-05.16:11:57::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-02-05.16:11:57::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iic_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-02-05.16:11:57::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-02-05.16:11:57::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_11/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-02-05.16:11:57::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-02-05.16:11:57::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:57::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:57::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2026-02-05.16:11:57::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2026-02-05.16:11:57::SCWMssOS:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:57::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:57::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-02-05.16:11:57::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-02-05.16:11:57::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-02-05.16:11:57::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-02-05.16:11:57::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2026-02-05.16:11:57::SCWMssOS::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2026-02-05.16:11:57::SCWMssOS::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-02-05.16:11:57::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-02-05.16:11:57::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-02-05.16:11:57::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-02-05.16:11:57::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-02-05.16:11:57::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-02-05.16:11:57::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+TRACE::2026-02-05.16:11:57::SCWMssOS::e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2026-02-05.16:11:57::SCWMssOS::hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2026-02-05.16:11:57::SCWMssOS::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2026-02-05.16:11:57::SCWMssOS::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-02-05.16:11:57::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-02-05.16:11:57::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-02-05.16:11:57::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-02-05.16:11:57::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-02-05.16:11:57::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-02-05.16:11:57::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-02-05.16:11:57::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-02-05.16:11:57::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_10/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-02-05.16:11:57::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-02-05.16:11:57::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_11/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iic_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-02-05.16:11:57::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-02-05.16:11:57::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_11/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-02-05.16:11:57::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-02-05.16:11:57::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-02-05.16:11:57::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-02-05.16:11:57::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-02-05.16:11:57::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-02-05.16:11:57::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-02-05.16:11:57::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-02-05.16:11:57::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-02-05.16:11:57::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-02-05.16:11:57::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-02-05.16:11:57::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-02-05.16:11:57::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-02-05.16:11:57::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-02-05.16:11:57::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-02-05.16:11:57::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-02-05.16:11:57::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-02-05.16:11:57::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-02-05.16:11:57::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+TRACE::2026-02-05.16:11:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-02-05.16:11:57::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-02-05.16:11:57::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-02-05.16:11:58::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2026-02-05.16:11:58::SCWMssOS::make --no-print-directory archive
+
+TRACE::2026-02-05.16:11:58::SCWMssOS::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/_sbrk
+TRACE::2026-02-05.16:11:58::SCWMssOS::.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/close.o ps7_cortexa
+TRACE::2026-02-05.16:11:58::SCWMssOS::9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/
+TRACE::2026-02-05.16:11:58::SCWMssOS::fstat.o ps7_cortexa9_0/lib/getentropy.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/isatty.o ps7
+TRACE::2026-02-05.16:11:58::SCWMssOS::_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/pri
+TRACE::2026-02-05.16:11:58::SCWMssOS::nt.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/
+TRACE::2026-02-05.16:11:58::SCWMssOS::lib/time.o ps7_cortexa9_0/lib/translation_table.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/ve
+TRACE::2026-02-05.16:11:58::SCWMssOS::ctors.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xadcps_intr.o p
+TRACE::2026-02-05.16:11:58::SCWMssOS::s7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/x
+TRACE::2026-02-05.16:11:58::SCWMssOS::devcfg.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xd
+TRACE::2026-02-05.16:11:58::SCWMssOS::evcfg_selftest.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/li
+TRACE::2026-02-05.16:11:58::SCWMssOS::b/xdmaps_hw.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xemacps.o ps7_cortexa9_
+TRACE::2026-02-05.16:11:58::SCWMssOS::0/lib/xemacps_bdring.o ps7_cortexa9_0/lib/xemacps_control.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_
+TRACE::2026-02-05.16:11:58::SCWMssOS::cortexa9_0/lib/xemacps_intr.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xgpiops.o ps7_cortexa9_0/lib/xgpiops_g.o ps
+TRACE::2026-02-05.16:11:58::SCWMssOS::7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xgpiop
+TRACE::2026-02-05.16:11:58::SCWMssOS::s_sinit.o ps7_cortexa9_0/lib/xiic.o ps7_cortexa9_0/lib/xiic_dyn_master.o ps7_cortexa9_0/lib/xiic_g.o ps7_cortexa9_0/lib/xiic_in
+TRACE::2026-02-05.16:11:58::SCWMssOS::tr.o ps7_cortexa9_0/lib/xiic_l.o ps7_cortexa9_0/lib/xiic_master.o ps7_cortexa9_0/lib/xiic_multi_master.o ps7_cortexa9_0/lib/xii
+TRACE::2026-02-05.16:11:58::SCWMssOS::c_options.o ps7_cortexa9_0/lib/xiic_selftest.o ps7_cortexa9_0/lib/xiic_sinit.o ps7_cortexa9_0/lib/xiic_slave.o ps7_cortexa9_0/l
+TRACE::2026-02-05.16:11:58::SCWMssOS::ib/xiic_stats.o ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib
+TRACE::2026-02-05.16:11:58::SCWMssOS::/xil_clocking.o ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_c
+TRACE::2026-02-05.16:11:58::SCWMssOS::ortexa9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_sleeptimer.
+TRACE::2026-02-05.16:11:58::SCWMssOS::o ps7_cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_t
+TRACE::2026-02-05.16:11:58::SCWMssOS::estmem.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xinterrupt_wrap.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/l
+TRACE::2026-02-05.16:11:58::SCWMssOS::ib/xplatform_info.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xpm_init.o ps7_cortexa9_0/lib/xqspips.o ps7_cortexa9_0/
+TRACE::2026-02-05.16:11:58::SCWMssOS::lib/xqspips_g.o ps7_cortexa9_0/lib/xqspips_hw.o ps7_cortexa9_0/lib/xqspips_options.o ps7_cortexa9_0/lib/xqspips_selftest.o ps7_
+TRACE::2026-02-05.16:11:58::SCWMssOS::cortexa9_0/lib/xqspips_sinit.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xscugic_g.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_
+TRACE::2026-02-05.16:11:58::SCWMssOS::cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cortexa9_0/lib/xscut
+TRACE::2026-02-05.16:11:58::SCWMssOS::imer.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xscutimer_selftest.o ps7_cortexa9_0/lib/xscutimer_sinit.o ps7_cortex
+TRACE::2026-02-05.16:11:58::SCWMssOS::a9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_
+TRACE::2026-02-05.16:11:58::SCWMssOS::cortexa9_0/lib/xsdps.o ps7_cortexa9_0/lib/xsdps_card.o ps7_cortexa9_0/lib/xsdps_g.o ps7_cortexa9_0/lib/xsdps_host.o ps7_cortexa
+TRACE::2026-02-05.16:11:58::SCWMssOS::9_0/lib/xsdps_options.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/xspips.o ps7_cortexa9_0/lib/xspips_g.o ps7_cortexa9
+TRACE::2026-02-05.16:11:58::SCWMssOS::_0/lib/xspips_hw.o ps7_cortexa9_0/lib/xspips_options.o ps7_cortexa9_0/lib/xspips_selftest.o ps7_cortexa9_0/lib/xspips_sinit.o p
+TRACE::2026-02-05.16:11:58::SCWMssOS::s7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xuartps.o ps7_cortexa9_0/lib/xuartps_g.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cor
+TRACE::2026-02-05.16:11:58::SCWMssOS::texa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/xuartps_options.o ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortexa9_0/lib/xuartp
+TRACE::2026-02-05.16:11:58::SCWMssOS::s_sinit.o ps7_cortexa9_0/lib/xusbps.o ps7_cortexa9_0/lib/xusbps_endpoint.o ps7_cortexa9_0/lib/xusbps_g.o ps7_cortexa9_0/lib/xus
+TRACE::2026-02-05.16:11:58::SCWMssOS::bps_hw.o ps7_cortexa9_0/lib/xusbps_intr.o ps7_cortexa9_0/lib/xusbps_sinit.o
+
+TRACE::2026-02-05.16:11:58::SCWMssOS::Finished building libraries
+
+TRACE::2026-02-05.16:11:58::SCWMssOS::Copying to export directory.
+TRACE::2026-02-05.16:11:58::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-02-05.16:11:58::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-02-05.16:11:58::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2026-02-05.16:11:58::SCWSystem::Completed Processing the sysconfig hw0
+LOG::2026-02-05.16:11:58::SCWPlatform::Completed generating the artifacts for system configuration hw0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Started preparing the platform 
+TRACE::2026-02-05.16:11:58::SCWSystem::Writing the bif file for system config hw0
+TRACE::2026-02-05.16:11:58::SCWSystem::dir created 
+TRACE::2026-02-05.16:11:58::SCWSystem::Writing the bif 
+TRACE::2026-02-05.16:11:58::SCWPlatform::Started writing the spfm file 
+TRACE::2026-02-05.16:11:58::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-02-05.16:11:58::SCWPlatform::Completed generating the platform
+TRACE::2026-02-05.16:11:58::SCWMssOS::Saving the mss changes /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-02-05.16:11:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-02-05.16:11:58::SCWMssOS::Commit changes completed.
+TRACE::2026-02-05.16:11:58::SCWMssOS::Saving the mss changes /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-02-05.16:11:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-02-05.16:11:58::SCWMssOS::Commit changes completed.
+TRACE::2026-02-05.16:11:58::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:58::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:58::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:58::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:58::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:58::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:58::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:58::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:58::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:58::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:58::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:58::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:58::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:58::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:58::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:58::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:58::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:58::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:58::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"0c23e4578fe91668fbc79acbecacb6a2",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"6fe3c4ca824510c71dfe4dbbc6faa195",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-02-05.16:11:58::SCWPlatform::updated the xpfm file.
+TRACE::2026-02-05.16:11:58::SCWPlatform::Trying to open the hw design at /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA given /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA absoulate path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform::DSA directory /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw
+TRACE::2026-02-05.16:11:58::SCWPlatform:: Platform Path /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/hw/system_top.xsa
+TRACE::2026-02-05.16:11:58::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2026-02-05.16:11:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-02-05.16:11:58::SCWMssOS::Checking the sw design at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-02-05.16:11:58::SCWMssOS::DEBUG:  swdes dump  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-02-05.16:11:58::SCWMssOS::Sw design exists and opened at  /home/chubbysoap/Documents/ADgit/soft/no-OS/projects/ad9361/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
