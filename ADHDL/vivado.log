@@ -1,0 +1,84 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Feb  5 15:41:35 2026
+# Process ID: 6576
+# Current directory: /home/chubbysoap/Documents/marp/MARPSDR/ADHDL
+# Command line: vivado fmcomms2_zed.xpr
+# Log file: /home/chubbysoap/Documents/marp/MARPSDR/ADHDL/vivado.log
+# Journal file: /home/chubbysoap/Documents/marp/MARPSDR/ADHDL/vivado.jou
+# Running On: chubbysoapComputer, OS: Linux, CPU Frequency: 2287.909 MHz, CPU Physical cores: 16, Host memory: 66847 MB
+#-----------------------------------------------------------
+start_gui
+open_project fmcomms2_zed.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from '/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed' since last save.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as '/home/chubbysoap/Documents/library'; using path '/home/chubbysoap/Documents/ADgit/hdl/library' instead.
+WARNING: [Project 1-312] File not found as '/home/chubbysoap/Documents/library/common/ad_iobuf.v'; using path '/home/chubbysoap/Documents/ADgit/hdl/library/common/ad_iobuf.v' instead.
+WARNING: [Project 1-312] File not found as '/home/chubbysoap/Documents/marp/common/zed/zed_system_constr.xdc'; using path '/home/chubbysoap/Documents/ADgit/hdl/projects/common/zed/zed_system_constr.xdc' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as '/home/chubbysoap/Documents/library/common/ad_iobuf.v'; using path '/home/chubbysoap/Documents/ADgit/hdl/library/common/ad_iobuf.v' instead.
+WARNING: [Project 1-312] File not found as '/home/chubbysoap/Documents/marp/common/zed/zed_system_constr.xdc'; using path '/home/chubbysoap/Documents/ADgit/hdl/projects/common/zed/zed_system_constr.xdc' instead.
+WARNING: [Project 1-312] File not found as '/home/chubbysoap/Documents/library/common/ad_iobuf.v'; using path '/home/chubbysoap/Documents/ADgit/hdl/library/common/ad_iobuf.v' instead.
+WARNING: [Project 1-312] File not found as '/home/chubbysoap/Documents/marp/common/zed/zed_system_constr.xdc'; using path '/home/chubbysoap/Documents/ADgit/hdl/projects/common/zed/zed_system_constr.xdc' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/chubbysoap/Documents/ADgit/hdl/library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 8761.152 ; gain = 1237.422 ; free physical = 52351 ; free virtual = 60339
+update_compile_order -fileset sources_1
+open_bd_design {/home/chubbysoap/Documents/marp/MARPSDR/ADHDL/fmcomms2_zed.srcs/sources_1/bd/system/system.bd}
+Reading block design file </home/chubbysoap/Documents/marp/MARPSDR/ADHDL/fmcomms2_zed.srcs/sources_1/bd/system/system.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - sys_ps7
+Adding component instance block -- xilinx.com:ip:axi_iic:2.1 - axi_iic_main
+Adding component instance block -- analog.com:user:util_i2c_mixer:1.0 - sys_i2c_mixer
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - sys_concat_intc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - sys_rstgen
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - sys_200m_rstgen
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - sys_logic_inv
+Adding component instance block -- analog.com:user:axi_clkgen:1.0 - axi_hdmi_clkgen
+Adding component instance block -- analog.com:user:axi_hdmi_tx:1.0 - axi_hdmi_core
+Adding component instance block -- analog.com:user:axi_dmac:1.0 - axi_hdmi_dma
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - sys_audio_clkgen
+Adding component instance block -- analog.com:user:axi_spdif_tx:1.0 - axi_spdif_tx_core
+Adding component instance block -- analog.com:user:axi_i2s_adi:1.0 - axi_i2s_adi
+Adding component instance block -- xilinx.com:ip:axi_iic:2.1 - axi_iic_fmc
+Adding component instance block -- analog.com:user:axi_sysid:1.0 - axi_sysid_0
+Adding component instance block -- analog.com:user:sysid_rom:1.0 - rom_sys_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - GND_1
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_cpu_interconnect
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_hp0_interconnect
+Adding component instance block -- analog.com:user:axi_ad9361:1.0 - axi_ad9361
+Adding component instance block -- analog.com:user:util_tdd_sync:1.0 - util_ad9361_tdd_sync
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - util_ad9361_divclk_sel_concat
+Adding component instance block -- xilinx.com:ip:util_reduced_logic:2.0 - util_ad9361_divclk_sel
+Adding component instance block -- analog.com:user:util_clkdiv:1.0 - util_ad9361_divclk
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - util_ad9361_divclk_reset
+Adding component instance block -- analog.com:user:util_wfifo:1.0 - util_ad9361_adc_fifo
+Adding component instance block -- analog.com:user:util_cpack2:1.0 - util_ad9361_adc_pack
+Adding component instance block -- analog.com:user:axi_dmac:1.0 - axi_ad9361_adc_dma
+Adding component instance block -- analog.com:user:util_rfifo:1.0 - axi_ad9361_dac_fifo
+Adding component instance block -- analog.com:user:util_upack2:1.0 - util_ad9361_dac_upack
+Adding component instance block -- analog.com:user:axi_dmac:1.0 - axi_ad9361_dac_dma
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_hp1_interconnect
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s00_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s01_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_hp2_interconnect
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s00_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s01_data_fifo
+Successfully read diagram <system> from block design file </home/chubbysoap/Documents/marp/MARPSDR/ADHDL/fmcomms2_zed.srcs/sources_1/bd/system/system.bd>

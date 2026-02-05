@@ -1,0 +1,242 @@
+
+*** Running vivado
+    with args -log system_util_ad9361_tdd_sync_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_util_ad9361_tdd_sync_0.tcl
+
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source system_util_ad9361_tdd_sync_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1351.141 ; gain = 35.836 ; free physical = 25146 ; free virtual = 50360
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/chubbysoap/Documents/ADgit/hdl/library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_util_ad9361_tdd_sync_0
+Command: synth_design -top system_util_ad9361_tdd_sync_0 -part xc7z020clg484-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 144097
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2124.113 ; gain = 403.660 ; free physical = 23402 ; free virtual = 48619
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'system_util_ad9361_tdd_sync_0' [/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.gen/sources_1/bd/system/ip/system_util_ad9361_tdd_sync_0/synth/system_util_ad9361_tdd_sync_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'util_tdd_sync' [/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.gen/sources_1/bd/system/ipshared/ce16/util_tdd_sync.v:44]
+INFO: [Synth 8-6157] synthesizing module 'util_pulse_gen' [/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.gen/sources_1/bd/system/ipshared/ce16/_1/common/util_pulse_gen.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'util_pulse_gen' (0#1) [/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.gen/sources_1/bd/system/ipshared/ce16/_1/common/util_pulse_gen.v:37]
+WARNING: [Synth 8-7071] port 'pulse_counter' of module 'util_pulse_gen' is unconnected for instance 'i_tdd_sync' [/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.gen/sources_1/bd/system/ipshared/ce16/util_tdd_sync.v:67]
+WARNING: [Synth 8-7023] instance 'i_tdd_sync' of module 'util_pulse_gen' has 7 connections declared, but only 6 given [/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.gen/sources_1/bd/system/ipshared/ce16/util_tdd_sync.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'util_tdd_sync' (0#1) [/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.gen/sources_1/bd/system/ipshared/ce16/util_tdd_sync.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'system_util_ad9361_tdd_sync_0' (0#1) [/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.gen/sources_1/bd/system/ip/system_util_ad9361_tdd_sync_0/synth/system_util_ad9361_tdd_sync_0.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2210.082 ; gain = 489.629 ; free physical = 23144 ; free virtual = 48361
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2224.926 ; gain = 504.473 ; free physical = 23140 ; free virtual = 48357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2224.926 ; gain = 504.473 ; free physical = 23140 ; free virtual = 48357
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2224.926 ; gain = 0.000 ; free physical = 23136 ; free virtual = 48353
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.gen/sources_1/bd/system/ip/system_util_ad9361_tdd_sync_0/util_tdd_sync_constr.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.gen/sources_1/bd/system/ip/system_util_ad9361_tdd_sync_0/util_tdd_sync_constr.xdc] for cell 'inst'
+Parsing XDC File [/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.runs/system_util_ad9361_tdd_sync_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.runs/system_util_ad9361_tdd_sync_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2369.676 ; gain = 0.000 ; free physical = 24238 ; free virtual = 49434
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2369.711 ; gain = 0.000 ; free physical = 24233 ; free virtual = 49429
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23430 ; free virtual = 48607
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23428 ; free virtual = 48605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property ASYNC_REG = true for inst/sync_mode_d1_i. (constraint file  /home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.gen/sources_1/bd/system/ip/system_util_ad9361_tdd_sync_0/util_tdd_sync_constr.xdc, line 6).
+Applied set_property ASYNC_REG = true for inst/sync_mode_d1_reg. (constraint file  /home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.gen/sources_1/bd/system/ip/system_util_ad9361_tdd_sync_0/util_tdd_sync_constr.xdc, line 6).
+Applied set_property ASYNC_REG = true for inst/sync_mode_d2_i. (constraint file  /home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.gen/sources_1/bd/system/ip/system_util_ad9361_tdd_sync_0/util_tdd_sync_constr.xdc, line 6).
+Applied set_property ASYNC_REG = true for inst/sync_mode_d2_reg. (constraint file  /home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.gen/sources_1/bd/system/ip/system_util_ad9361_tdd_sync_0/util_tdd_sync_constr.xdc, line 6).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.runs/system_util_ad9361_tdd_sync_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23427 ; free virtual = 48606
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23423 ; free virtual = 48592
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23375 ; free virtual = 48598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23344 ; free virtual = 48544
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23344 ; free virtual = 48544
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23343 ; free virtual = 48543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23064 ; free virtual = 48233
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23064 ; free virtual = 48233
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23064 ; free virtual = 48233
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23064 ; free virtual = 48233
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23064 ; free virtual = 48233
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23064 ; free virtual = 48233
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    11|
+|2     |LUT1   |    32|
+|3     |LUT2   |     4|
+|4     |LUT3   |    20|
+|5     |LUT4   |     4|
+|6     |LUT5   |     1|
+|7     |LUT6   |     5|
+|8     |FDRE   |    29|
+|9     |FDSE   |    11|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23064 ; free virtual = 48233
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2369.711 ; gain = 504.473 ; free physical = 23064 ; free virtual = 48234
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2369.711 ; gain = 649.258 ; free physical = 23064 ; free virtual = 48234
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2369.711 ; gain = 0.000 ; free physical = 23064 ; free virtual = 48234
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2369.711 ; gain = 0.000 ; free physical = 23242 ; free virtual = 48413
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: dec39052
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:29 . Memory (MB): peak = 2369.711 ; gain = 999.727 ; free physical = 23218 ; free virtual = 48424
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1752.712; main = 1435.992; forked = 325.442
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3329.910; main = 2369.680; forked = 992.246
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2393.688 ; gain = 0.000 ; free physical = 23204 ; free virtual = 48426
+INFO: [Common 17-1381] The checkpoint '/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.runs/system_util_ad9361_tdd_sync_0_synth_1/system_util_ad9361_tdd_sync_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP system_util_ad9361_tdd_sync_0, cache-ID = 4319eb5cab7d2d82
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2393.688 ; gain = 0.000 ; free physical = 23062 ; free virtual = 48285
+INFO: [Common 17-1381] The checkpoint '/home/chubbysoap/Documents/ADgit/hdl/projects/fmcomms2/zed/fmcomms2_zed.runs/system_util_ad9361_tdd_sync_0_synth_1/system_util_ad9361_tdd_sync_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_util_ad9361_tdd_sync_0_utilization_synth.rpt -pb system_util_ad9361_tdd_sync_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Feb  5 05:37:49 2026...
