@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS = -Wall
 TARGET = marp
-SRC = marp.c
-dependFiles = mouse.c button.c screen.c
-dependOFiles = mouse.o button.o screen.o
+SRC = ./src/marp.c
+dependFiles = ./src/mouse.c ./src/button.c ./src/screen.c
+dependOFiles = ./src/mouse.o ./src/button.o ./src/screen.o
 
 build: $(dependOFiles)
 	$(CC) $(CFLAGS) $(SRC) -lSDL2 -lSDL2_image $(dependOFiles) -o $(TARGET)
