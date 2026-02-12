@@ -14,9 +14,15 @@ Inputs: SDL_Surface *screen: Pointer to screen where the button will be displaye
         int y_pos: Y axis location for the top left of the button
 Outputs: BUTTON structure pointer
 */
-BUTTON *create_button(SDL_Surface *screen, char *file_path, int x_pos, int y_pos)
+BUTTON *create_button(SDL_Surface *screen, char *file_path, int x_pos, int y_pos, float scale)
 {
     BUTTON *button = NULL;
+    SDL_Surface * surface_temp = NULL;
+    SDL_Surface * surface_opt = NULL;
+    int scaled_w = 0;
+    int scaled_h = 0;
+    int scaled_x = 0;
+    int scaled_y = 0;
 
     button = (BUTTON *)malloc(sizeof(BUTTON));
 
@@ -27,7 +33,7 @@ BUTTON *create_button(SDL_Surface *screen, char *file_path, int x_pos, int y_pos
     }
 
     // Setup surface texture for button
-    SDL_Surface * surface_temp = IMG_Load(file_path);
+    surface_temp = IMG_Load(file_path);
 
     if(surface_temp == NULL)
     {
@@ -35,15 +41,35 @@ BUTTON *create_button(SDL_Surface *screen, char *file_path, int x_pos, int y_pos
         exit(0);
     }
 
-    button->surface = SDL_ConvertSurface(surface_temp, screen->format, 0);
+    // button->surface = SDL_ConvertSurface(surface_temp, screen->format, 0);
+    surface_opt = SDL_ConvertSurface(surface_temp, screen->format, 0);
     SDL_FreeSurface(surface_temp);
+
+    // Set scale
+    scaled_w = surface_opt->w * scale;
+    scaled_h = surface_opt->h * scale;
+    scaled_x = x_pos * scale;
+    scaled_y = y_pos * scale;
+    
+
+    // Create a new surface for the scaled button image
+    button->surface = SDL_CreateRGBSurface(0, scaled_w, scaled_h,
+                                           screen->format->BitsPerPixel,
+                                           screen->format->Rmask,
+                                           screen->format->Gmask,
+                                           screen->format->Bmask,
+                                           screen->format->Amask);
 
     // Initialize values
     button->button_selected = button_is_not_selected;
-    button->rect.x = x_pos;
-    button->rect.y = y_pos;
-    button->rect.w = button->surface->w;
-    button->rect.h = button->surface->h;
+    button->rect.x = scaled_x;
+    button->rect.y = scaled_y;
+    button->rect.w = scaled_w;
+    button->rect.h = scaled_h;
+
+    // Scale surface
+    SDL_BlitScaled(surface_opt, NULL, button->surface, NULL);
+    SDL_FreeSurface(surface_opt);
 
     return button;
 }

@@ -13,6 +13,10 @@
 #include "mouse.h"
 #include "screen.h"
 
+// Resolution definitions
+#define WIDTH 1920
+#define HEIGHT 1080
+
 // FPS definitions
 #define FPS 60
 #define FRAME_TARGET_TIME (1000 / FPS)

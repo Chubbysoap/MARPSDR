@@ -7,6 +7,7 @@ int main()
     int program_is_running = 1;
     int last_frame_time = 0;
     int time_to_wait = 0;
+    float scale = 0;
 
 
     // initialize window
@@ -26,10 +27,11 @@ int main()
         NULL,
         SDL_WINDOWPOS_CENTERED,
         SDL_WINDOWPOS_CENTERED,
-        800,
-        600,
+        WIDTH,
+        HEIGHT,
         SDL_WINDOW_BORDERLESS
         // SDL_WINDOW_FULLSCREEN
+        // SDL_WINDOW_RESIZABLE
     );
 
     if(window == NULL)
@@ -53,10 +55,13 @@ int main()
         }
     }
 
+    // Set resolution scale
+    scale = (float)screen[MAIN]->w / WIDTH;
+
     // Setup
     MOUSE *mouse = create_mouse();
-    BUTTON *button = create_button(screen[MAIN], "assets/TestButton.png", 100,200);
-    BUTTON *exit_button = create_button(screen[FM_RADIO], "assets/exit.png", 200, 400);
+    BUTTON *button = create_button(screen[MAIN], "assets/TestButton.png", 100, 800, scale);
+    BUTTON *exit_button = create_button(screen[FM_RADIO], "assets/exit.png", 200, 400, scale);
 
     // Loop
     while(program_is_running)
