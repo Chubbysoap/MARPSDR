@@ -1,28 +1,42 @@
+
 #include "define.h"
+#include "button.h"
+#include "mouse.h"
+#include "screen.h"
+#include "textbox.h"
 
 
 int main()
 {
     SDL_Surface *screen[NUM_of_SCREENS];
+    TEXTBOX *textbox[NUM_of_TEXTBOXES];
     int program_is_running = 1;
     int last_frame_time = 0;
     int time_to_wait = 0;
-    float scale = 0;
 
 
-    // initialize window
+    // Initialize SDL
     if(SDL_Init(SDL_INIT_EVERYTHING) != 0)
     {
         fprintf(stderr, "Error initializing SDL.\n");
         program_is_running = 0;
     }
 
+    // Initialize image input
     if(IMG_Init(IMG_INIT_PNG) == 0)
     {
         fprintf(stderr, "Error initializing SDL Image.\n");
         program_is_running = 0;
     }
 
+    // Initialize test input
+    if(TTF_Init() != 0)
+    {
+        fprintf(stderr, "Error initializing TTF.\n");
+        program_is_running = 0;
+    }
+
+    // Setup window
     SDL_Window *window = SDL_CreateWindow(
         NULL,
         SDL_WINDOWPOS_CENTERED,
@@ -41,27 +55,14 @@ int main()
     }
 
 
-    // Initialize screen surfaces
-    for(int i = 0; i < NUM_of_SCREENS; i++)
-    {
-        screen[i] = NULL;
+    setup_screens(window, screen);
+    setup_textboxes(window, screen, textbox);
 
-        screen[i] = SDL_GetWindowSurface(window);
-
-        if(screen[i] == NULL)
-        {
-            fprintf(stderr, "Error creating SDL Renderer.\n");
-            program_is_running = 0;
-        }
-    }
-
-    // Set resolution scale
-    scale = (float)screen[MAIN]->w / WIDTH;
 
     // Setup
     MOUSE *mouse = create_mouse();
-    BUTTON *button = create_button(screen[MAIN], "assets/TestButton.png", 100, 800, scale);
-    BUTTON *exit_button = create_button(screen[FM_RADIO], "assets/exit.png", 200, 400, scale);
+    BUTTON *button = create_button(screen[MAIN], "assets/button_textures/TestButton.png", 100, 800);
+    BUTTON *exit_button = create_button(screen[FM_RADIO], "assets/button_textures/exit.png", 200, 400);
 
     // Loop
     while(program_is_running)
@@ -82,9 +83,12 @@ int main()
                 }
                 break;
         }
+
         update_mouse(mouse, event);
         update_button(button, mouse);
         update_button(exit_button, mouse);
+        update_textbox(textbox[TEST_BOX], mouse, &event);
+
 
         
         // Update
@@ -112,6 +116,7 @@ int main()
         else
         {
             display_main_screen(screen[MAIN], button);
+            display_textbox(screen[MAIN], textbox[TEST_BOX]);
         }
         
 
@@ -120,11 +125,14 @@ int main()
 
     // Destroy window
     SDL_DestroyWindow(window);
-    SDL_Quit();
+    SDL_StopTextInput();
 
     // Cleanup
     destroy_mouse(mouse);
     destroy_button(button);
+    teardown_textboxes(textbox);
+    TTF_Quit();
+    SDL_Quit();
 
 
     return 0;

@@ -3,7 +3,7 @@
 */
 
 #include "define.h"
-
+#include "button.h"
 
 /*
 Name: create_button
@@ -14,7 +14,7 @@ Inputs: SDL_Surface *screen: Pointer to screen where the button will be displaye
         int y_pos: Y axis location for the top left of the button
 Outputs: BUTTON structure pointer
 */
-BUTTON *create_button(SDL_Surface *screen, char *file_path, int x_pos, int y_pos, float scale)
+BUTTON *create_button(SDL_Surface *screen, char *file_path, int x_pos, int y_pos)
 {
     BUTTON *button = NULL;
     SDL_Surface * surface_temp = NULL;
@@ -23,6 +23,10 @@ BUTTON *create_button(SDL_Surface *screen, char *file_path, int x_pos, int y_pos
     int scaled_h = 0;
     int scaled_x = 0;
     int scaled_y = 0;
+    float scale = 0;
+
+    // Set resolution scale
+    scale = (float)screen->w / WIDTH;
 
     button = (BUTTON *)malloc(sizeof(BUTTON));
 

@@ -4,14 +4,17 @@
 // Standard header files
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
+#include <SDL2/SDL_ttf.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <string.h>
 
 // Custom header files
-#include "button.h"
-#include "mouse.h"
-#include "screen.h"
+// #include "button.h"
+// #include "mouse.h"
+// #include "screen.h"
+// #include "textbox.h"
 
 // Resolution definitions
 #define WIDTH 1920
@@ -25,5 +28,10 @@
 #define NUM_of_SCREENS 2
 #define MAIN 0
 #define FM_RADIO 1
+
+// Textbox definitons
+#define NUM_of_TEXTBOXES 1
+#define TEST_BOX 0
+
 
 #endif

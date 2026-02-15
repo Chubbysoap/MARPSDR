@@ -2,4 +2,5 @@
 screen.o
 mouse.o
 button.o
+textbox.o
 marp
